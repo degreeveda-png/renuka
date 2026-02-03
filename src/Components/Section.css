@@ -1,0 +1,62 @@
+div {
+    text-align: center;
+    background-color: beige;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+}
+
+.card1 {
+    display: grid;
+    border-radius: 5px;
+    width: 250px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.card2 {
+    display: grid;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.card3{
+    display: grid;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.card4{
+    display: grid;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+    justify-content:center;
+}
+
+.ttd{
+    display: grid;
+    grid-template-columns: repeat(4,1);
+    display: flex;
+    gap:20px;
+    justify-content:space-around
+}
+
+h4{
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
